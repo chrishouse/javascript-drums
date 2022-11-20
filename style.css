@@ -1,0 +1,65 @@
+.drumset-area{
+    width: 565px;
+    height: 565px;
+    margin: 20vh auto 0 auto;
+    position: relative;
+}
+
+.drum{
+    position: absolute;
+    transition: transform .07s;
+}
+
+.kick{
+    bottom: 0;
+    left: 181px;
+}
+
+.snare{
+    bottom: 147px;
+    left: 205px;
+}
+
+.tom1{
+    bottom: 144px;
+    right: 39px;
+}
+
+.tom2{
+    bottom: 273px;
+    right: 150px;
+}
+
+.tom3{
+    top: 170px;
+    left: 165px;
+}
+
+.tom4{
+    bottom: 204px;
+    left: 107px;
+}
+
+.hihat{
+    left: 0;
+    bottom: 144px;
+}
+
+.cymbal1{
+    bottom: 288px;
+    left: 0;
+}
+
+.cymbal2{
+    top: 13px;
+    left: 199px;
+}
+
+.cymbal3{
+    right: 0;
+    top: 95px;
+}
+
+.playing{
+    transform: scale(1.1);
+}
